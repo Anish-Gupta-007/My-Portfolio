@@ -12,3 +12,15 @@ menuBtn.addEventListener("click", () => {
     menuBtn.classList.add("fa-bars");
   }
 });
+
+// SCROLL REVEL
+
+ScrollReveal({
+  distance:'80px',
+  duration: 2000,
+  delay:200,
+})
+ScrollReveal().reveal('.home-contant, heading', {origin:'top'})
+ScrollReveal().reveal('.coder-img, .skill-container,.contact form',{origin:'buttom'})
+ScrollReveal().reveal('.home-contant h1, .about-img,.about',{origin:'left'})
+ScrollReveal().reveal('.home-contant p, .about-contant,.project-container',{origin:'right'})
